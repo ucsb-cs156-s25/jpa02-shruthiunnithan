@@ -20,7 +20,7 @@ public class Developer {
         // You may use just the name that is used on <https://bit.ly/cs156-s25-teams>
         // i.e. your first name, or your first and initial of last name
 
-        return "Chris G.";
+        return "Shruthi";
     }
 
     /**
@@ -30,7 +30,7 @@ public class Developer {
 
     public static String getGithubId() {
         // TODO: Change this to your github id
-        return "cgaucho";
+        return "shruthiunnithan";
     }
 
     /**
@@ -39,14 +39,13 @@ public class Developer {
      */
     
     public static Team getTeam() {
-        // TODO: Change this to your team name
-        Team team = new Team("s25-xx");
-        team.addMember("Alice");
-        team.addMember("Bob");
-        team.addMember("Chris G.");
-        team.addMember("Danny");
-        team.addMember("Eve");
-        team.addMember("Frances");
+        Team team = new Team("s25-14");
+        team.addMember("Karen");
+        team.addMember("Siddhi");
+        team.addMember("Shruthi");
+        team.addMember("Chloe");
+        team.addMember("Ryan");
+        team.addMember("Andrew");
         return team;
     }
 }
