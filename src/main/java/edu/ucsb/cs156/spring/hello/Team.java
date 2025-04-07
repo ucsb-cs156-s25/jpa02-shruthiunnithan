@@ -74,26 +74,7 @@ public class Team {
             return false;
         }
         Team other = (Team) obj;
-        if(this.name.equals(other.name)){
-            if(this.members.contains(other.members)){
-                return true;
-            }
-            else{
-                return true;
-            }
-        }
-        else{
-            if(this.members.contains(other.members)){
-                return true;
-            }
-            else{
-                return false;
-            }
-        }
-        // else if(this.name.equals(other.name)){
-        //     return this.members.contains(other.members);
-        // }
-        //return this.name.equals(other.name) && this.members.equals(other.members);
+        return this.name.equals(other.name) && this.members.equals(other.members);
     }
 
     /*
